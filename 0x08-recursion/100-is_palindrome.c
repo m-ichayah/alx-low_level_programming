@@ -8,7 +8,7 @@
 
 int _strlen_recursion(char *s)
 {
-		if (!*s)
+	if (!*s)
 				{
 							return (0);
 								}
@@ -24,12 +24,12 @@ int _strlen_recursion(char *s)
 
 int p1(char *s, int l)
 {
-		if (l < 1)
+	if (l < 1)
 				{
 							return (1);
 								}
 
-			if (*s == *(s + l))
+	if (*s == *(s + l))
 					{
 								return (p1(s + 1, l - 2));
 									}
